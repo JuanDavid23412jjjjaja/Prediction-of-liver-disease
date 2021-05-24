@@ -1,8 +1,7 @@
-# Prediction-of-liver-disease
 
 # Predicción de enfermedades hepáticas.
 
-En este repositorio se compararán algunos clasificadores y la forma en la que estos reciben entrenan y procesan los datos, así con el fin de elegir un buen clasificador para hacer una predicción correcta de sí un paciente posee o no una enfermedad hepática.
+In this repository, some classifiers will be compared and the way in which they receive, train and process the data, thus in order to choose a good classifier to make a correct prediction of whether or not a patient has liver disease.
 
 Target | # | |
 -------|:-----:|:----:|
@@ -16,10 +15,10 @@ Suspect Blood Donor | 7|7
 
 # Files
 
-Este trabajo fue programado en Colab by Google y se utilizó una base de datos de https://www.kaggle.com/fedesoriano/hepatitis-c-dataset?rvi=1 para esto es necesario descargar el archivo CSV.
+This work was programmed in Colab by Google and a database of https://www.kaggle.com/fedesoriano/hepatitis-c-dataset?rvi=1 was used for this it is necessary to download the CSV file.
 
-## Resultados
-Este trabajo dio malas predicciones con los métodos tradicionales multiclase, debido a las características de los descriptores, el tamaño de cada clase y algunos datos perdidos. Sin embargo, al trabajarse con esas limitantes, se lograron crear clasificadores que predecían sí la persona estaba enferma o no.
+## Results
+This work gave poor predictions with traditional multiclass methods, due to the characteristics of the descriptors, the size of each class and some missing data. However, when working with these limitations, it was possible to create classifiers that predicted whether the person was ill or not.
 
 |Classifiers|Accuracy|Precision Blood donor|Precision Suspect blood donor|Precision Hepatitis|Precision Fibrosis|Precision Cirrhosis|
 |-----|-----|-----|-----|-----|----|-----|-----|---
