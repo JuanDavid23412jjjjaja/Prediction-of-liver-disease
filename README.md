@@ -21,9 +21,9 @@ This work was programmed in Colab by Google and a database of https://www.kaggle
 This work gave poor predictions with traditional multiclass methods, due to the characteristics of the descriptors, the size of each class and some missing data. However, when working with these limitations, it was possible to create classifiers that predicted whether the person was ill or not.
 
 |Classifiers|Accuracy|Precision Blood donor|Precision Suspect blood donor|Precision Hepatitis|Precision Fibrosis|Precision Cirrhosis|
-|-----|-----|-----|-----|-----|----|-----|-----|---
+|-----|-----|-----|-----|-----|----|-----
 |Gaussian Bayes|0.920904|0.974026|0.75|0.142857|0.500000|0.875000
-Multinomial Bayes|0.892655|0.968153|0.50|0.166667|0.125000|1.000000
+|Multinomial Bayes|0.892655|0.968153|0.50|0.166667|0.125000|1.000000
 |Complement Bayes|0.903955|0.962264|0.00|0.000000|0.000000|0.437500
 |Bernoulli Bayes|0.870056|0.870056|0.00|0.000000|0.000000|0.000000
 |Desicion tree|0.903955|0.974359|0.00|0.166667|0.333333|0.833333
