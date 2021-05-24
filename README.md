@@ -31,7 +31,7 @@ This work gave poor predictions with traditional multiclass methods, due to the 
 
 Al montarse los clasificadores binarios, las predicciones mejoraron demasiado.
 
-|Classifiers|Accuracy|Sano|Enfermo|
+|Classifiers|Accuracy|Healthy|Sick|
 |-----------|------------|------|---|
 Gaussian Bayes|0.949066|0.969697|0.770492
 Multinomial Bayes|0.945671|0.966038|0.762712
